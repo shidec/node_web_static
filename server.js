@@ -3,7 +3,7 @@ const fs = require('fs'); //-- load file system library
 const mime = require('mime'); //-- load mime library to get mime type of file
 const { file_image, directory_image } = require('./images.js'); //-- load images.js for image data
 
-//-- web parameters
+//-- web server parameters
 const port = 88;
 const host = 'localhost';
 
